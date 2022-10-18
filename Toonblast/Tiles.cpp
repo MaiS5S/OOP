@@ -1,4 +1,4 @@
-#include "Tiles.h"
+#include "Header/Tiles.h"
 using namespace std;
 
 Tiles::Tiles(int symbol){

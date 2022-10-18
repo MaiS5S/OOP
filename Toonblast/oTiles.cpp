@@ -1,5 +1,5 @@
-#include "oTiles.h"
-#include "Tiles.h"
+#include "Header/oTiles.h"
+#include "Header/Tiles.h"
 #include <iostream>
 using namespace std;
 

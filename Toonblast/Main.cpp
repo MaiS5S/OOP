@@ -1,7 +1,7 @@
-#include "Tiles.h"
-#include "oTiles.h"
-#include "Rocket.h"
-#include "Bomb.h"
+#include "Header/Tiles.h"
+#include "Header/oTiles.h"
+#include "Header/Rocket.h"
+#include "Header/Bomb.h"
 using namespace std;
 
 

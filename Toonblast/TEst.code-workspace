@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../IMK/TEst"
+		},
+		{
+			"path": "../../IMK/Coding"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../GEMASTIK"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"xstring": "cpp",
+			"utility": "cpp"
+		}
+	}
+}
