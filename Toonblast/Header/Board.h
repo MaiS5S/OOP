@@ -3,19 +3,22 @@
 #include <iostream>
 
 class Board{
+    private:
+        int width;
+        int height;
+        Tiles** tiles;
     public:
-        Board(int _width, int _height);
+        Board(int _w, int _h);
         Tiles *getTile(int x, int y);
         void setTile(int x, int y, Tiles *tile);
 
         int getWidth();
         int getHeight();
 
+        bool canPopTile();
+
         void printBoard();
         void initBoard();
-
-    private:
-        int width;
-        int height;
-        Tiles** tiles;
+        void updateBoard();
+        void popTile();
 };
